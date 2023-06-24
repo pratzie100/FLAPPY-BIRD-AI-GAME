@@ -1,13 +1,15 @@
 body {
+    font-family: "Arial", sans-serif;
     font-size: 30px;
     background-color: #272b30;
+    margin: 0;
+    padding: 0;
 }
 
 canvas {
     border: 1px solid #d3d3d3;
-    padding: 0;
-    margin: auto;
     display: block;
+    margin: 0 auto;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -20,24 +22,34 @@ button {
     border: none;
     color: white;
     padding: 15px 32px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 #scores {
     position: absolute;
     left: 510px;
-    top: 0px;
+    top: 0;
 }
 
 p {
-    margin-top: -15px;
+    margin-top: -10px;
+    color: #fff;
 }
 
 h1 {
     font-size: 40px;
-    margin-bottom: 15px;
+    margin: 0;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
 }
