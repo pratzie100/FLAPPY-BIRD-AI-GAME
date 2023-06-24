@@ -1,0 +1,43 @@
+body {
+    font-size: 30px;
+    background-color: #272b30;
+}
+
+canvas {
+    border: 1px solid #d3d3d3;
+    padding: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#scores {
+    position: absolute;
+    left: 510px;
+    top: 0px;
+}
+
+p {
+    margin-top: -15px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
