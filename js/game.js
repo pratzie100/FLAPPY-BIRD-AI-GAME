@@ -193,7 +193,7 @@ function game() {
     addFloor(getLevel());
     var x = (canvas.width - 130) / 2;
     var y = canvas.height - 10;
-    drawText("Pratyush Kargeti", "white", 10, y, 13, 4)
+    drawText("Made By Pratyush Kargeti", "white", 10, y, 13, 4)
     var scoreCenter = (canvas.width / 2) - (20 * score.toString().length);
     drawText(score, "white", scoreCenter, 90, 70, 8);
     drawText("Press P to pause", "white", canvas.width - 135, 25, 17, 5);
